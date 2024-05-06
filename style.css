@@ -1,0 +1,256 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+
+header {
+    color: gold;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+
+
+nav {
+    height: 70px;
+    width: 100%;
+    line-height: 75px;
+    background-color:gold;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+
+}
+nav .logo p{
+    float: left;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    float: right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+    
+}
+/*nav li{
+    display: inline-block;
+    list-style: none;
+    
+}*/
+nav a{
+    color: black;
+    text-transform: uppercase;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+nav a:hover{
+   color:red; 
+}
+nav a:active{
+    color:blue;
+}
+
+.banner{
+    background-image:url(./lori.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:800px !important;
+    width: 100%;
+    margin-bottom: 0px;
+    overflow-y: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.banner h1{
+    color: gold;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:350px
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: gold;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    background-color:black;
+    margin-top:70px;
+    
+}
+
+/*let start styling our contain page n1*/
+
+.container{
+    width: 1200px;
+    height: 500px;
+    color: black;
+    background-color: gold;
+    border: 2px solid red;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.owner{
+    height: 400px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: goldenrod;
+    padding-left: 13px;
+    text-align: center;
+}
+.owner h2{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+span{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.history{
+    height: 400px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: goldenrod;
+    padding-left: 13px;
+    text-align: center;   
+}
+.history h2{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+/*style for the second page about the product*/
+ .containertwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.images{
+    flex-direction: row;
+}
+.deco-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.decoration{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+}
+.decoration img{
+    width: 100%;
+    height: auto;
+}
+
+}
+.clothes{
+    background-color:white;
+}
+
+.container3{
+    width: 1200px;
+    height: 500px;
+    color: black;
+    background-color: gold;
+    border: 2px solid red;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.label{
+    margin: 15px;
+}
+input{
+    width: 90%;
+}
+
+.sign p{
+    margin-bottom: 20px;
+}
+.sign{
+    height: 400px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: goldenrod;
+    padding-left: 13px;
+    text-align: center;
+    display: inline-block;
+}
+
+button{
+    width: 80%;
+    height: 20px;
+    background-color:white;
+    color: goldenrod;
+    font-size: 15px;
+    border: none;
+}
+button:hover{
+    color: green;
+    background-color: blue;
+}
+button:active{
+    color: red;
+    background-color: bisque;
+}
+.sign p{
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.location{
+    height: 400px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: goldenrod;
+    padding-left: 13px;
+    text-align: center; 
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color:gold;
+    color: black;
+}
+footer p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+

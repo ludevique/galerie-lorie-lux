@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="author" content="ludevique">
+        <meta charset="UTF-8">
+        <meta name="description" content="contact and location">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>contact and location</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header>
+
+
+            <!-- <img src="lori.jpg" alt="profile" width="100%" height=""> -->
+            <nav>
+                <div class="logo">
+                    <p>Galerie lorie lux</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="contact.html">contacts</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="product.html">products</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        
+        <main>
+            <div class="container3">
+                <div class="sign">
+                    <p>
+                        <i>welcome to our sign up form <br>
+                        signed to have many advantages.
+                        </i>
+                    </p>
+                    <form action="https://httpbin.org/get" method="get">
+                        <div class="label">
+                            <label for="firstname">firstname:</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                           
+                        <div class="label">
+                            <label for="lastname">lastname:</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="lastname">
+                        </div>
+                           
+                        
+                        <div class="label">
+                            <label for="phone">phone</label>
+                            <input type="password" name="password" id="password" placeholder="hiddenword"> 
+                        /<div>
+                        <div class="label">
+                            <label for="phone">phonenumber</label>
+                            <input type="tel" name="phone" id="phone" placeholder="enter your number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required> 
+                        </div>
+                            
+                        
+                        <div class="label">
+                            <label for="decade">decade</label>
+                            <input type="number" name="decade" id="decade" min="1990" max="2024" step="2" value="1996"> 
+                        </div>
+                      <button type="button">
+                        submit
+                      </button>      
+                </div>
+                
+                    
+                </div>
+            </div>
+        </main>
+
+        
+        <footer>
+            <p>
+                copyright &copy; <abbr title="galerie lorie lux">GLL</abbr>
+            </p>
+        </footer>
+    </body>
+</html>    
