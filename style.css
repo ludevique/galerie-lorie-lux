@@ -107,7 +107,7 @@ main {
     margin-bottom: 30px;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -173,7 +173,6 @@ span{
     height: auto;
 }
 
-}
 .clothes{
     background-color:white;
 }
